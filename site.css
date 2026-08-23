@@ -1,0 +1,40 @@
+/*
+    Orlando Camacho
+    August 23, 2026
+    Assignment 3.3
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    background-color: #1F3A5F;
+    color: #FFFFFF;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: #245B8A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D6A800;
+}
+
+a:visited {
+    color: #6A4C93;
+}
