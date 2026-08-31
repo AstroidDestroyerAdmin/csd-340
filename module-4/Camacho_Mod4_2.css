@@ -1,0 +1,45 @@
+/*
+    Orlando Camacho
+    August 30, 2026
+    Assignment 4.2
+*/
+
+#container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(0, 102, 153, 1);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(153, 51, 0, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(0, 102, 51, 1);
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}
+
+.return-link {
+    margin-top: 60px;
+    text-align: right;
+}
