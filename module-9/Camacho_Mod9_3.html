@@ -1,0 +1,103 @@
+<!--
+    Orlando Camacho
+    September 27, 2026
+    Assignment 9.3: JavaScript - Part 1
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment 9.3 for CSD 340 Web Development with HTML and CSS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, CSD 340, Bellevue University">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Orlando Camacho">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" href="../module-2/Camacho_Mod2_2.css">
+
+    <script>
+        var firstWord = "technology";
+        var secondWord = "programming";
+        var thirdWord = "patience";
+        var fourthWord = "problems";
+    </script>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+        <h2>Chapter 1: A Little About Me</h2>
+
+        <p class="intro">
+            My name is Orlando Camacho, and I live in Bakersfield, California.
+            One thing that has become a big part of my life is learning more about
+            computers and <span id="technology">__________</span>.
+            The more I learn about how websites and programs work, the more
+            interesting it gets.
+        </p>
+
+        <p>
+            Through my classes, I have been learning HTML, CSS, Java,
+            Python, databases, and other areas of
+            <span id="programming">__________</span>.
+            Some assignments can definitely be frustrating at first, especially
+            when one small mistake causes everything to stop working. At the same
+            time, finally finding the mistake and getting the program to work is
+            probably one of the best parts.
+        </p>
+
+        <p>
+            Going back to school has also taught me a lot about
+            <span id="patience">__________</span>.
+            I have learned that programming does not always work perfectly the
+            first time. Sometimes the best thing to do is slow down, look through
+            the code, and figure things out one step at a time.
+        </p>
+
+        <p>
+            That same approach works outside of school too. Technology changes
+            constantly, so there is always something new to learn. Instead of
+            expecting to know everything right away, I try to keep learning and
+            getting better at solving <span id="problems">__________</span>.
+            For me, that is one of the coolest things about working with technology.
+        </p>
+
+        <p>
+            <button type="button"
+                onclick="document.getElementById('technology').innerHTML = firstWord">
+                Reveal Word 1
+            </button>
+
+            <button type="button"
+                onclick="document.getElementById('programming').innerHTML = secondWord">
+                Reveal Word 2
+            </button>
+
+            <button type="button"
+                onclick="document.getElementById('patience').innerHTML = thirdWord">
+                Reveal Word 3
+            </button>
+
+            <button type="button"
+                onclick="document.getElementById('problems').innerHTML = fourthWord">
+                Reveal Word 4
+            </button>
+        </p>
+
+        <address>
+            <p>
+                <a href="https://www.bellevue.edu/">Bellevue University</a>
+            </p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, Nebraska 68005</p>
+        </address>
+
+    </div>
+</body>
+
+</html>
