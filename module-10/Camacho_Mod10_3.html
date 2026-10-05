@@ -1,0 +1,56 @@
+ <!--
+    Orlando Camacho
+    October 4, 2026
+    Assignment 10.3: JavaScript - Part 2
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <script>
+        function changeFestivalImage() {
+            var festivalImage = document.getElementById("festivalImage");
+
+            if (festivalImage.getAttribute("src") === "images/festival_01.jpg") {
+                festivalImage.src = "images/festival_02.jpg";
+                festivalImage.alt = "Outdoor music festival during the day";
+            } else {
+                festivalImage.src = "images/festival_01.jpg";
+                festivalImage.alt = "Music festival at night with fireworks";
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <h2>Festival Experience</h2>
+
+    <p>
+        Click the image below to switch between two different festival experiences.
+    </p>
+
+    <img
+        id="festivalImage"
+        src="images/festival_01.jpg"
+        alt="Music festival at night with fireworks"
+        width="600"
+        onclick="changeFestivalImage()"
+        style="cursor: pointer;"
+    >
+
+    <p>
+        Click the image again to switch it back.
+    </p>
+
+</body>
+
+</html>
